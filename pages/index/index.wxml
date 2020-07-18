@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<import src="../../template/loading/index.wxml" />
+
+<view class="container">
+  <template is="loading" data="{{...load}}"></template>
+  <text>文本</text>
+</view>
